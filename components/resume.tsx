@@ -7,7 +7,7 @@ export default function Resume() {
   const [isSidebarExpanded, setIsSidebarExpanded] = useState(false);
 
   return (
-    <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden shadow-2xl">
+    <div className="max-w-6xl mx-auto bg-white rounded-2xl  overflow-hidden shadow-2xl">
       <div className="flex flex-col lg:flex-row ">
         {/* Mobile Header - Profile and Name side by side */}
         <div className="lg:hidden">
