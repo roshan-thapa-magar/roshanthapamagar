@@ -26,7 +26,7 @@ export default function Resume() {
             </div>
             <div className="flex-1">
               <h1 className="text-lg font-bold">ROSHAN THAPA MAGAR</h1>
-              <p className="text-sm text-gray-300">Software Engineer</p>
+              <p className="text-sm text-gray-300">Software & AI/ML Engineer</p>
             </div>
             <div className="flex-shrink-0">
               <svg
@@ -189,6 +189,75 @@ export default function Resume() {
                   </div>
                 </div>
               </div>
+
+              {/* <CHANGE> Added social media icons section for mobile */}
+              <div className="mb-6">
+                <div className="flex justify-center gap-4">
+                  {/* LinkedIn */}
+                  <a
+                    href="https://www.linkedin.com/in/roshan-thapa-magar-a1886a367/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
+                  >
+                    <svg
+                      className="w-4 h-4 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                  </a>
+
+                  {/* Instagram */}
+                  <a
+                    href="https://www.instagram.com/roshanthapamagar_/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center hover:from-purple-600 hover:to-pink-600 transition-colors"
+                  >
+                    <svg
+                      className="w-4 h-4 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                  </a>
+
+                  {/* GitHub */}
+                  <a
+                    href="https://github.com/roshan-thapa-magar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-900 transition-colors"
+                  >
+                    <svg
+                      className="w-4 h-4 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                  </a>
+
+                  {/* Twitter */}
+                  <a
+                    href="https://x.com/RoshanThap21156"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-8 h-8 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
+                  >
+                    <svg
+                      className="w-4 h-4 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
             </div>
           )}
         </div>
@@ -345,8 +414,78 @@ export default function Resume() {
               </div>
             </div>
           </div>
+
+          {/* <CHANGE> Added social media icons section for desktop */}
+          <div className="mb-6">
+            <div className="flex justify-center gap-4">
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/roshan-thapa-magar-a1886a367/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
+              >
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/roshanthapamagar_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center hover:from-purple-600 hover:to-pink-600 transition-colors"
+              >
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+
+              {/* GitHub */}
+              <a
+                href="https://github.com/roshan-thapa-magar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-900 transition-colors"
+              >
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+
+              {/* Twitter */}
+              <a
+                href="https://x.com/RoshanThap21156"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
+              >
+                <svg
+                  className="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
 
+        {/* Main Content Area */}
         <div className="bg-gray-50 flex-1 lg:w-2/3 lg:overflow-y-auto hide-scrollbar lg:h-screen shadow-2xl">
           <div className="p-6 lg:p-8">
             <div className="mb-8 hidden lg:block">
@@ -354,7 +493,7 @@ export default function Resume() {
                 ROSHAN THAPA MAGAR
               </h1>
               <p className="text-xl text-gray-600 font-medium">
-                Software Engineer
+                Software & AI/ML Engineer | Computer Science Graduate
               </p>
             </div>
 
@@ -366,9 +505,12 @@ export default function Resume() {
                 A self-taught and resilient software engineer with a strong
                 belief in continuous learning. Skilled in developing fast,
                 scalable, and user-friendly applications, with expertise in both
-                UI/UX design and backend development. Committed to writing
-                clean, maintainable code and delivering high-quality solutions
-                through collaboration and innovation.
+                UI/UX design and backend development. As an AI/ML Engineer and
+                Computer Science graduate, I specialize in building intelligent
+                systems that bridge the gap between human needs and
+                technological capabilities. Passionate about transforming ideas
+                into data-driven, innovative solutions that push the boundaries
+                of what's possible.
               </p>
             </div>
 
@@ -377,7 +519,7 @@ export default function Resume() {
                 Experience
               </h2>
 
-              <div className="relative">
+              <div className="relative space-y-4">
                 {/* Timeline line */}
                 <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-gray-300"></div>
 
@@ -389,7 +531,9 @@ export default function Resume() {
                         <h3 className="text-lg font-bold text-gray-900">
                           Software Development Intern
                         </h3>
-                        <p className="text-gray-600">Octspace IT Company</p>
+                        <p className="text-gray-600">
+                          Octspace (IT Services & Consulting)
+                        </p>
                       </div>
                       <span className="text-sm text-gray-500 font-medium">
                         3 Months
@@ -406,6 +550,51 @@ export default function Resume() {
                         technologies
                       </li>
                     </ul>
+                  </div>
+                </div>
+                <div className="relative">
+                  {/* Timeline line */}
+                  <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+
+                  <div className="relative">
+                    <div className="absolute left-0 w-6 h-6 bg-green-600 rounded-full border-4 border-white shadow-md"></div>
+                    <div className="ml-10">
+                      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                        <div>
+                          <h3 className="text-lg font-bold text-gray-900">
+                            Final Year Project (FYP) - Solo Project
+                          </h3>
+                          <p className="text-gray-600">
+                            QR Code Restaurant Ordering & Management System
+                          </p>
+                        </div>
+                        <span className="text-sm text-gray-500 font-medium">
+                          8 Months
+                        </span>
+                      </div>
+                      <ul className="text-gray-700 text-sm space-y-1 mt-2">
+                        <li className="flex items-start">
+                          <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                          Designed and developed a full-stack restaurant
+                          management system with QR code ordering.
+                        </li>
+                        <li className="flex items-start">
+                          <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                          Implemented role-based dashboards for admin, kitchen,
+                          waiter, and customer.
+                        </li>
+                        <li className="flex items-start">
+                          <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                          Independently handled project planning, design,
+                          development, and testing under supervisor guidance.
+                        </li>
+                        <li className="flex items-start">
+                          <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                          Technologies used: React, Tailwind CSS, Node.js, and
+                          database integration.
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -441,13 +630,13 @@ export default function Resume() {
                       <ul className="text-gray-700 text-sm space-y-1 mt-2">
                         <li className="flex items-start">
                           <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                          Specialized in Software Engineering and Web
-                          Development
+                          Specialized in Software Engineering, Web & Mobile
+                          Application Development.
                         </li>
                         <li className="flex items-start">
                           <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                          Pursuing First Class Honours - A great achievement in
-                          UK degree system
+                          Currently pursuing First Class Honours, reflecting a
+                          strong academic performance in the UK degree system.
                         </li>
                       </ul>
                     </div>
@@ -529,44 +718,7 @@ export default function Resume() {
                 <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-gray-300"></div>
 
                 <div className="space-y-8">
-                  {/* Game Development Project */}
-                  <div className="relative">
-                    <div className="absolute left-0 w-6 h-6 bg-green-600 rounded-full border-4 border-white shadow-md"></div>
-                    <div className="ml-10">
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <div className="flex items-center gap-3 mb-2">
-                            <h3 className="text-lg font-bold text-gray-900">
-                              Game Development
-                            </h3>
-                            <svg
-                              className="w-5 h-5 text-gray-600 hover:text-gray-900 cursor-pointer"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
-                          </div>
-                          <p className="text-gray-700 text-sm mb-2">
-                            Developed interactive games using modern frameworks
-                          </p>
-                          <ul className="text-gray-700 text-sm space-y-1">
-                            <li className="flex items-start">
-                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Built engaging gameplay mechanics and user
-                              interfaces
-                            </li>
-                            <li className="flex items-start">
-                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Implemented game logic and state management
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Website Development Project */}
+                  {/* Course Management System */}
                   <div className="relative">
                     <div className="absolute left-0 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-md"></div>
                     <div className="ml-10">
@@ -574,37 +726,127 @@ export default function Resume() {
                         <div className="flex-1">
                           <div className="flex items-center gap-3 mb-2">
                             <h3 className="text-lg font-bold text-gray-900">
-                              Website Development
+                              Course Management System
                             </h3>
-                            <svg
-                              className="w-5 h-5 text-gray-600 hover:text-gray-900 cursor-pointer"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
+                            <a
+                              href="https://github.com/roshan-thapa-magar/course-management-system"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-600 hover:text-gray-900 transition-colors"
                             >
-                              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
+                              <svg
+                                className="w-5 h-5"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                              </svg>
+                            </a>
                           </div>
                           <p className="text-gray-700 text-sm mb-2">
-                            Built responsive and dynamic websites with modern
-                            tech stack
+                            Comprehensive educational platform built with Java
+                            for managing courses, students, and academic
+                            operations
                           </p>
                           <ul className="text-gray-700 text-sm space-y-1">
                             <li className="flex items-start">
                               <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Created responsive designs with modern CSS
-                              frameworks
+                              Developed student enrollment and course
+                              registration system
                             </li>
                             <li className="flex items-start">
                               <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Integrated APIs and database functionality
+                              Implemented grade management and academic progress
+                              tracking
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Built admin dashboard for course and user
+                              management
                             </li>
                           </ul>
+                          <div className="flex flex-wrap gap-2 mt-3">
+                            <span className="px-2 py-1 bg-red-100 text-red-800 rounded text-xs">
+                              Java
+                            </span>
+                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                              Spring Boot
+                            </span>
+                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                              MySQL
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  {/* QR Code Ordering System Project */}
+                  {/* Restaurant Management System */}
+                  <div className="relative">
+                    <div className="absolute left-0 w-6 h-6 bg-green-600 rounded-full border-4 border-white shadow-md"></div>
+                    <div className="ml-10">
+                      <div className="flex items-start justify-between">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-3 mb-2">
+                            <h3 className="text-lg font-bold text-gray-900">
+                              Restaurant Management System
+                            </h3>
+                            <a
+                              href="https://github.com/roshan-thapa-magar/Restaurant-Management-System"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-gray-600 hover:text-gray-900 transition-colors"
+                            >
+                              <svg
+                                className="w-5 h-5"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                              </svg>
+                            </a>
+                          </div>
+                          <p className="text-gray-700 text-sm mb-2">
+                            Full-stack MERN application with QR code ordering
+                            system for modern restaurant operations
+                          </p>
+                          <ul className="text-gray-700 text-sm space-y-1">
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Developed QR code-based digital menu and ordering
+                              system
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Built real-time order management and kitchen
+                              dashboard
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Integrated payment processing and inventory
+                              management
+                            </li>
+                          </ul>
+                          <div className="flex flex-wrap gap-2 mt-3">
+                            <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs">
+                              MongoDB
+                            </span>
+                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                              Express.js
+                            </span>
+                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                              React
+                            </span>
+                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                              Node.js
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Autonomous Vehicle System */}
                   <div className="relative">
                     <div className="absolute left-0 w-6 h-6 bg-purple-600 rounded-full border-4 border-white shadow-md"></div>
                     <div className="ml-10">
@@ -612,10 +854,10 @@ export default function Resume() {
                         <div className="flex-1">
                           <div className="flex items-center gap-3 mb-2">
                             <h3 className="text-lg font-bold text-gray-900">
-                              QR Code Ordering System
+                              Autonomous Vehicle System
                             </h3>
                             <svg
-                              className="w-5 h-5 text-gray-600 hover:text-gray-900 cursor-pointer"
+                              className="w-5 h-5 text-gray-600"
                               fill="currentColor"
                               viewBox="0 0 24 24"
                             >
@@ -623,21 +865,98 @@ export default function Resume() {
                             </svg>
                           </div>
                           <p className="text-gray-700 text-sm mb-2">
-                            Created a digital ordering system with QR code
-                            integration
+                            Intelligent self-driving car system with automatic
+                            path detection and navigation capabilities
                           </p>
                           <ul className="text-gray-700 text-sm space-y-1">
                             <li className="flex items-start">
                               <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Developed QR code generation and scanning
-                              functionality
+                              Implemented computer vision for real-time path
+                              detection
                             </li>
                             <li className="flex items-start">
                               <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Built order management and payment processing
-                              system
+                              Developed obstacle avoidance and route
+                              optimization algorithms
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Built web-based control interface and monitoring
+                              dashboard
                             </li>
                           </ul>
+                          <div className="flex flex-wrap gap-2 mt-3">
+                            <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs">
+                              C#
+                            </span>
+                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                              ASP.NET
+                            </span>
+                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                              Computer Vision
+                            </span>
+                            <span className="px-2 py-1 bg-orange-100 text-orange-800 rounded text-xs">
+                              AI/ML
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Professional Website Development */}
+                  <div className="relative">
+                    <div className="absolute left-0 w-6 h-6 bg-orange-600 rounded-full border-4 border-white shadow-md"></div>
+                    <div className="ml-10">
+                      <div className="flex items-start justify-between">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-3 mb-2">
+                            <h3 className="text-lg font-bold text-gray-900">
+                              Professional Website Development
+                            </h3>
+                            <svg
+                              className="w-5 h-5 text-gray-600"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.30.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                          </div>
+                          <p className="text-gray-700 text-sm mb-2">
+                            Modern, responsive websites and web applications
+                            with focus on user experience and performance
+                          </p>
+                          <ul className="text-gray-700 text-sm space-y-1">
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Created responsive designs with modern CSS
+                              frameworks and animations
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Integrated APIs, databases, and third-party
+                              services
+                            </li>
+                            <li className="flex items-start">
+                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                              Optimized for SEO, accessibility, and
+                              cross-browser compatibility
+                            </li>
+                          </ul>
+                          <div className="flex flex-wrap gap-2 mt-3">
+                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                              React
+                            </span>
+                            <span className="px-2 py-1 bg-black text-white rounded text-xs">
+                              Next.js
+                            </span>
+                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                              TypeScript
+                            </span>
+                            <span className="px-2 py-1 bg-cyan-100 text-cyan-800 rounded text-xs">
+                              Tailwind CSS
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
