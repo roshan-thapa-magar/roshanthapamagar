@@ -163,7 +163,7 @@ export default function Resume() {
                       rel="noopener noreferrer"
                       className="text-gray-300 text-sm hover:text-white transition-colors underline"
                     >
-                      roshanmagar.vercel.app
+                     Visit Portfolio
                     </a>
                   </div>
                 </div>
@@ -388,7 +388,7 @@ export default function Resume() {
                   rel="noopener noreferrer"
                   className="text-gray-300 text-sm hover:text-white transition-colors underline"
                 >
-                  roshanmagar.vercel.app
+                 Visit Portfolio
                 </a>
               </div>
             </div>
@@ -763,9 +763,6 @@ export default function Resume() {
                             <span className="px-2 py-1 bg-red-100 text-red-800 rounded text-xs">
                               Java
                             </span>
-                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
-                              Spring Boot
-                            </span>
                             <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
                               MySQL
                             </span>
@@ -884,13 +881,11 @@ export default function Resume() {
                               C#
                             </span>
                             <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
-                              ASP.NET
+                              Unity
                             </span>
-                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
-                              Computer Vision
-                            </span>
+
                             <span className="px-2 py-1 bg-orange-100 text-orange-800 rounded text-xs">
-                              AI/ML
+                              AI algorithms
                             </span>
                           </div>
                         </div>
@@ -949,6 +944,9 @@ export default function Resume() {
                             </span>
                             <span className="px-2 py-1 bg-cyan-100 text-cyan-800 rounded text-xs">
                               Tailwind CSS
+                            </span>
+                            <span className="px-2 py-1 bg-cyan-200 text-cyan-800 rounded text-xs">
+                              ShadCN
                             </span>
                           </div>
                         </div>
@@ -1019,6 +1017,9 @@ export default function Resume() {
                         <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
                           PHP
                         </span>
+                        <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
+                          NestJs
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -1043,6 +1044,9 @@ export default function Resume() {
                         <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">
                           Supabase
                         </span>
+                        <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">
+                          postgresql
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -1060,6 +1064,9 @@ export default function Resume() {
                         </span>
                         <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">
                           React Native
+                        </span>
+                        <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">
+                          Swift
                         </span>
                         <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm">
                           Figma
