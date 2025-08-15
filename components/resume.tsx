@@ -502,15 +502,9 @@ export default function Resume() {
                 Personal Profile
               </h2>
               <p className="text-gray-700 leading-relaxed text-justify">
-                A self-taught and resilient software engineer with a strong
-                belief in continuous learning. Skilled in developing fast,
-                scalable, and user-friendly applications, with expertise in both
-                UI/UX design and backend development. As an AI/ML Engineer and
-                Computer Science graduate, I specialize in building intelligent
-                systems that bridge the gap between human needs and
-                technological capabilities. Passionate about transforming ideas
-                into data-driven, innovative solutions that push the boundaries
-                of what's possible.
+                {
+                  "A self-taught and resilient software engineer with a strong belief in continuous learning. Skilled in developing fast, scalable, and user-friendly applications, with expertise in both UI/UX design and backend development. As an AI/ML Engineer and Computer Science graduate, I specialize in building intelligent systems that bridge the gap between human needs and technological capabilities. Passionate about transforming ideas into data-driven, innovative solutions that push the boundaries of what's possible."
+                }
               </p>
             </div>
 
