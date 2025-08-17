@@ -26,7 +26,7 @@ export default function Resume() {
             </div>
             <div className="flex-1">
               <h1 className="text-lg font-bold">ROSHAN THAPA MAGAR</h1>
-              <p className="text-sm text-gray-300">Software & AI/ML Engineer</p>
+              <p className="text-sm text-gray-300">Software Engineer</p>
             </div>
             <div className="flex-shrink-0">
               <svg
@@ -163,7 +163,7 @@ export default function Resume() {
                       rel="noopener noreferrer"
                       className="text-gray-300 text-sm hover:text-white transition-colors underline"
                     >
-                     Visit Portfolio
+                      Visit Portfolio
                     </a>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export default function Resume() {
                 </div>
               </div>
 
-              {/* <CHANGE> Added social media icons section for mobile */}
+              {/* Added social media icons section for mobile */}
               <div className="mb-6">
                 <div className="flex justify-center gap-4">
                   {/* LinkedIn */}
@@ -388,7 +388,7 @@ export default function Resume() {
                   rel="noopener noreferrer"
                   className="text-gray-300 text-sm hover:text-white transition-colors underline"
                 >
-                 Visit Portfolio
+                  Visit Portfolio
                 </a>
               </div>
             </div>
@@ -415,7 +415,7 @@ export default function Resume() {
             </div>
           </div>
 
-          {/* <CHANGE> Added social media icons section for desktop */}
+          {/* Added social media icons section for desktop */}
           <div className="mb-6">
             <div className="flex justify-center gap-4">
               {/* LinkedIn */}
@@ -493,7 +493,7 @@ export default function Resume() {
                 ROSHAN THAPA MAGAR
               </h1>
               <p className="text-xl text-gray-600 font-medium">
-                Software & AI/ML Engineer | Computer Science Graduate
+                Software Engineer | Computer Science Graduate
               </p>
             </div>
 
@@ -503,7 +503,7 @@ export default function Resume() {
               </h2>
               <p className="text-gray-700 leading-relaxed text-justify">
                 {
-                  "A self-taught and resilient software engineer with a strong belief in continuous learning. Skilled in developing fast, scalable, and user-friendly applications, with expertise in both UI/UX design and backend development. As an AI/ML Engineer and Computer Science graduate, I specialize in building intelligent systems that bridge the gap between human needs and technological capabilities. Passionate about transforming ideas into data-driven, innovative solutions that push the boundaries of what's possible."
+                  "A self-taught and resilient software engineer with a strong belief in continuous learning. Skilled in developing fast, scalable, and user-friendly applications, with expertise in both UI/UX design and backend development. As a Computer Science graduate, I specialize in building robust systems that bridge the gap between human needs and technological capabilities. Passionate about transforming ideas into innovative solutions that push the boundaries of what's possible."
                 }
               </p>
             </div>
@@ -837,61 +837,7 @@ export default function Resume() {
                     </div>
                   </div>
 
-                  {/* Autonomous Vehicle System */}
-                  <div className="relative">
-                    <div className="absolute left-0 w-6 h-6 bg-purple-600 rounded-full border-4 border-white shadow-md"></div>
-                    <div className="ml-10">
-                      <div className="flex items-start justify-between">
-                        <div className="flex-1">
-                          <div className="flex items-center gap-3 mb-2">
-                            <h3 className="text-lg font-bold text-gray-900">
-                              Autonomous Vehicle System
-                            </h3>
-                            <svg
-                              className="w-5 h-5 text-gray-600"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                            </svg>
-                          </div>
-                          <p className="text-gray-700 text-sm mb-2">
-                            Intelligent self-driving car system with automatic
-                            path detection and navigation capabilities
-                          </p>
-                          <ul className="text-gray-700 text-sm space-y-1">
-                            <li className="flex items-start">
-                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Implemented computer vision for real-time path
-                              detection
-                            </li>
-                            <li className="flex items-start">
-                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Developed obstacle avoidance and route
-                              optimization algorithms
-                            </li>
-                            <li className="flex items-start">
-                              <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3 mt-2 flex-shrink-0"></span>
-                              Built web-based control interface and monitoring
-                              dashboard
-                            </li>
-                          </ul>
-                          <div className="flex flex-wrap gap-2 mt-3">
-                            <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs">
-                              C#
-                            </span>
-                            <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
-                              Unity
-                            </span>
-
-                            <span className="px-2 py-1 bg-orange-100 text-orange-800 rounded text-xs">
-                              AI algorithms
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  {/* Autonomous Vehicle System - Removed this entire project section as it's AI-focused */}
 
                   {/* Professional Website Development */}
                   <div className="relative">
